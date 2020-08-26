@@ -1,0 +1,33 @@
+﻿<Window x:Name="WindowTimer1" x:Class="WpfStarterLearning.WindowTimer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfStarterLearning"
+        mc:Ignorable="d"
+        Title="WindowTimer" Height="450" Width="600" Loaded="WindowTimer1_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="LabelTime" Content="時刻表示" HorizontalAlignment="Left" Margin="30,157,0,0" VerticalAlignment="Top" Width="166" Height="36" Grid.ColumnSpan="2" Grid.Column="1" Background="#FFB8D4E4" Foreground="Red" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="LabelCount" Content="秒カウント表示" HorizontalAlignment="Left" Margin="30,202,0,0" VerticalAlignment="Top" Width="166" Height="36" Grid.ColumnSpan="2" Grid.Column="1" Background="#FFB8D4E4" Foreground="Red" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="ButtonDispaTimer" Content="DispatcherTimerスタート" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="128" Height="53" Grid.Row="1" Click="ButtonDispaTimer_Click"/>
+        <Button x:Name="ButtonDispaStop" Content="DispatcherTimerストップ" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="128" Height="49" Grid.Row="1" Click="ButtonDispaStop_Click"/>
+        <Button x:Name="ButtonTimersTimer" Content="Timers.Timerスタート" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="128" Height="53" Click="ButtonTimersTimer_Click"/>
+        <Button x:Name="ButtonTimersStop" Content="Timers.Timerストップ" Grid.Column="1" HorizontalAlignment="Left" Margin="10,81,0,0" Grid.Row="1" VerticalAlignment="Top" Width="128" Height="49" Click="ButtonTimersStop_Click"/>
+        <Button x:Name="ButtonThreadingTimer" Content="Threading.Timerスタート" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="128" Height="53" Click="ButtonThreadingTimer_Click"/>
+        <Button x:Name="ButtonThreadingStop" Content="Threading.Timerストップ" Grid.Column="2" HorizontalAlignment="Left" Margin="10,81,0,0" Grid.Row="1" VerticalAlignment="Top" Width="128" Height="49" Click="ButtonThreadingStop_Click"/>
+        <Button x:Name="ButtonMessageQueue" Content="メッセージキュー取り出し" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="128" Height="49" Grid.Column="3" Grid.Row="1" Click="ButtonMessageQueue_Click"/>
+        <Button x:Name="ButtonHeavy" Content="重い" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="57" Height="53" Click="ButtonHeavy_Click"/>
+        <Button x:Name="ButtonHeavyHi" Content="重い2" Grid.Column="3" HorizontalAlignment="Left" Margin="83,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="55" Height="53" Click="ButtonHeavyHi_Click"/>
+        <Button x:Name="ButtonExit" Content="閉じる" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top" Width="120" Height="71" Grid.Column="3" Click="ButtonExit_Click"/>
+    </Grid>
+</Window>

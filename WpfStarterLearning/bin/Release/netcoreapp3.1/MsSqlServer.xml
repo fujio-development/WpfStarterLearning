@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SqlSvrInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <MssqlSvHost>(local)</MssqlSvHost>
+    <MssqlSvInstance>SQLEXPRESS</MssqlSvInstance>
+    <MssqlSvPort>1433</MssqlSvPort>
+    <MssqlSvCatalog>AdoNetSample</MssqlSvCatalog>
+    <MssqlSvLoginMode>true</MssqlSvLoginMode>
+    <MssqlSvUserID>sa</MssqlSvUserID>
+    <MssqlSvPassword>sapassword</MssqlSvPassword>
+    <MssqlSvConnectTimeout>3</MssqlSvConnectTimeout>
+    <MssqlSvMARS>true</MssqlSvMARS>
+</SqlSvrInfo>
