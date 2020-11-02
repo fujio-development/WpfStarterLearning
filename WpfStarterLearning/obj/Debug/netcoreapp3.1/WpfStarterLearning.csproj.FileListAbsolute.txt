@@ -25,3 +25,4 @@ C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Debug\netcoreapp3.
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Debug\netcoreapp3.1\WpfStarterLearning.dll
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Debug\netcoreapp3.1\WpfStarterLearning.pdb
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Debug\netcoreapp3.1\WpfStarterLearning.genruntimeconfig.cache
+C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Debug\netcoreapp3.1\WpfStarterLearning.csprojAssemblyReference.cache
