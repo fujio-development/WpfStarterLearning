@@ -28,4 +28,3 @@ C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Release\net5.0-win
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Release\net5.0-windows\ref\WpfStarterLearning.dll
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Release\net5.0-windows\WpfStarterLearning.pdb
 C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Release\net5.0-windows\WpfStarterLearning.genruntimeconfig.cache
-C:\Workspace\DotNet\WpfStarterLearning\WpfStarterLearning\obj\Release\net5.0-windows\WpfStarterLearning.csprojAssemblyReference.cache
